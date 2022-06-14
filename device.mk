@@ -441,3 +441,5 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
+    
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
