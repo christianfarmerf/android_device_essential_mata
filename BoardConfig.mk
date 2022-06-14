@@ -145,3 +145,5 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit from the proprietary version
 include vendor/essential/mata/BoardConfigVendor.mk
+
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
