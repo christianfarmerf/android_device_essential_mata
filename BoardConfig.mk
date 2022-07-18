@@ -18,6 +18,7 @@ DEVICE_PATH := device/essential/mata
 
 # BUILD_BROKEN_*
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # Platform
 TARGET_ARCH := arm64
@@ -149,5 +150,3 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit from the proprietary version
 include vendor/essential/mata/BoardConfigVendor.mk
-
-BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
